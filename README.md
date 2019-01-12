@@ -9,3 +9,6 @@ snapp server-side /w php
 <h2>Mesaj Silme</h2>
 <p>Dosya: "mesajsil.php"</p>
 <p>POST['id']= Mesajın ID'si</p>
+
+<h2>Veritabanı Dosyası</h2>
+Dosya: "mesajlar.sql"
