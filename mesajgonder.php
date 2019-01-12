@@ -1,7 +1,7 @@
 <?php include './vt.php'; ?>
 <?php 
-    $kullanici=$_GET['k'];
-    $mesaji=$_GET['m'];
+    $kullanici=$_POST['k'];
+    $mesaji=$_POST['m'];
 	$query = $db->prepare("INSERT INTO mesajlar SET
 kadi = ?,
 mesaj = ?");
